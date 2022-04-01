@@ -1,0 +1,28 @@
+body{
+    background-size:cover;
+}
+
+#heading{
+    width: 100%;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+.start{
+    font-size: 23px;
+       
+}
+
+canvas{
+    animation-name:can;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 15px;
+    border: 10px red ridge;
+    margin-top: 150px;
+}
+
+@keyframes can{
+from{box-shadow:20px 15px 26px rgb(238, 197, 144);}
+to{box-shadow: 20px 15px 26px darkorchid;}
+}
